@@ -1,4 +1,7 @@
 // Define a class named HelloWorld
+
+import java.util.ArrayList;
+
 public class HelloWorld {
     // The main method – the entry point of a Java application
     public static void main(String[] args) {
@@ -10,6 +13,12 @@ public class HelloWorld {
 
         String exclaim = addExclamatationPoint("Hot Dogs");
         System.out.println(exclaim);
+
+        Animal a = new Animal();
+        String dog = a.iAmDog();
+        System.out.println(dog);
+
+        ArrayList<Integer> b = new ArrayList<Integer>();
 
     }
 
