@@ -8,5 +8,13 @@ public class HelloWorld {
         String upperName = name.toUpperCase();
         System.out.println(upperName); // Print output
 
+        String exclaim = addExclamatationPoint("Hot Dogs");
+        System.out.println(exclaim);
+
     }
+
+    public static String addExclamatationPoint(String s) {
+        return s + "!";
+    }
+
 }
