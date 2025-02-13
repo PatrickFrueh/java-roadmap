@@ -18,7 +18,7 @@ public class HelloWorld {
         String dog = a.iAmDog();
         System.out.println(dog);
 
-        ArrayList<Integer> b = new ArrayList<Integer>();
+        // ArrayList<Integer> b = new ArrayList<Integer>();
 
     }
 
