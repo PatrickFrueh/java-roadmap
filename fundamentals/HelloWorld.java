@@ -1,6 +1,6 @@
 // Define a class named HelloWorld
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 public class HelloWorld {
     // The main method – the entry point of a Java application
