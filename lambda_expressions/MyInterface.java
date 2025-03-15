@@ -16,3 +16,4 @@ public interface MyInterface {
     static void printItToSystemOut(String text){
         System.out.println(text);
     }
+}
